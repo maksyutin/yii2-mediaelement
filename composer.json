@@ -10,12 +10,16 @@
             "email": "maksyutin@yandex.ru"
         }
     ],
+    "support": {
+		"issues": "https://github.com/maksyutin/yii2-mediaelement/issues?state=open",
+		"source": "https://github.com/maksyutin/yii2-mediaelement"
+    },
     "require": {
 		"yiisoft/yii2": "~2.0"
-	},
-	"autoload": {
+    },
+    "autoload": {
 		"psr-4": {
 			"maksyutin\\mediaelement\\": ""
 		}
-	}
+    }
 }
