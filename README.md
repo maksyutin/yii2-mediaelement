@@ -28,4 +28,17 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \maksyutin\mediaelement\AutoloadExample::widget(); ?>```
+<?= maksyutin\mediaelement\AutoloadWidget::widget([
+        'mediafile' => BaseYii::getAlias('@web').'/video/emailcap.mp4',
+        'width' => 849,
+        'height' => 478,
+        'title' => 'Title',
+        'modal' => true,
+        'playerOptions' => [
+            'defaultVideoWidth' => 480,
+            'defaultVideoHeight' => 270,
+            'keyActions' => '[]',
+            'enableKeyboard' => true,
+        ]
+    ]);
+    ?>```
